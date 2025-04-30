@@ -1,28 +1,33 @@
-# 📊 Exploratory Data Analysis (EDA) with SQL
-This project uses SQL to perform in-depth exploratory data analysis on a dataset of company layoffs. The goal was to uncover trends, patterns, and key insights about layoffs across companies, industries, countries, and time periods.
+# 🧹📊 Data Cleaning & Exploratory Data Analysis (EDA) with SQL
+This project demonstrates a complete data analytics workflow using SQL: starting with thorough data cleaning and followed by in-depth exploratory data analysis on a real-world layoffs dataset. The goal was to prepare high-quality data and extract actionable insights about global company layoffs during 2020–2023.
 
 # 🧠 Objective
-Explore and analyze layoff data to understand the scale and impact across different dimensions.
-Identify trends over time, by company, industry, and country.
-Practice advanced SQL techniques for real-world data analysis.
+Clean and preprocess raw layoff data for accuracy and consistency.
+Explore the cleaned data to uncover trends, patterns, and key insights.
+Practice advanced SQL techniques for real-world analytics.
 # 📊 Dataset
-Source: Layoff dataset
+Source: [Layoff dataset, e.g., Kaggle or internal]
 Period: March 2020 – March 2023
 Features: Company, Industry, Country, Date, Total Laid Off, Percentage Laid Off, Funds Raised, Stage
 # 🧪 Workflow
-Started with basic queries to find max layoffs, companies with 100% layoffs, and largest single-day layoffs.
-Explored layoffs by company, industry, and country using GROUP BY and aggregation.
-Analyzed time trends: calculated monthly and yearly layoffs, and created rolling totals using window functions.
-Used CTEs and ranking functions to identify top companies with the most layoffs per year.
-Interpreted results to understand the impact of COVID-19 and economic shifts on layoffs.
+Phase 1: Data Cleaning
+Removed duplicates and handled missing or inconsistent values.
+Standardized formats for dates, company names, and categorical fields.
+Ensured data integrity for accurate analysis.
+Phase 2: Exploratory Data Analysis
+Used SQL queries to analyze layoffs by company, industry, country, and time.
+Calculated summary statistics, identified outliers, and explored trends.
+Applied window functions, CTEs, and ranking to reveal top companies and time-based patterns.
+Created rolling totals and year-over-year comparisons to visualize the progression of layoffs.
 # 📈 Results
-Identified major companies (e.g., Google, Meta, Amazon) with the largest layoffs.
-Found that the U.S. had the highest number of layoffs, with significant spikes in 2022 and early 2023.
-Revealed industry trends: consumer and retail sectors were hit hardest.
-Built advanced SQL queries using CTEs, window functions, and ranking for deep insights.
+Produced a clean, reliable dataset ready for analysis.
+Identified major companies and industries most affected by layoffs.
+Revealed that the U.S. and tech/consumer sectors experienced the largest layoffs, especially in 2022–2023.
+Demonstrated advanced SQL skills with complex queries for deep insights.
 # 📁 Files Included
-Exploratory_Data_Analysis.sql — All SQL scripts for EDA.
+DATA CLEANING.sql — SQL scripts for all data cleaning steps.
+Exploratory_Data_Analysis.sql — SQL scripts for EDA and insights.
 # 🚀 Future Improvements
-Visualize results in BI tools (e.g., Tableau, Power BI).
-Integrate with company size data for richer percentage analysis.
-Automate EDA reporting with stored procedures.
+Visualize findings in BI tools (e.g., Tableau, Power BI).
+Integrate additional data (e.g., company size) for richer analysis.
+Automate the workflow for regular reporting.
